@@ -26,12 +26,15 @@ body{
     
 }
 .tip-container{
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    width: 1100px;
+    width: 950px;
     height: 500px;
     border-radius: 30px;
     margin-top: 60px;
     padding: 10px;
+    gap: 10px;
 }
 .input-container{
     margin: 50px;
@@ -127,3 +130,61 @@ button{
 }
 
 /* style second container */
+.tip-container-cal{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(183, 100%, 15%);
+    width: 400px;
+    height: 380px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 40px;
+    gap: 60px;
+}
+.amount-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+}
+.total-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+}
+
+.tip-text{
+    font-size:medium;
+    font-weight: lighter;
+
+}
+.total{
+    font-size:medium;
+    font-weight: lighter;
+}
+.person-text{
+    color: hsl(186, 14%, 43%) ;
+}
+.digit{
+    color:hsl(172, 67%, 45%);
+    font-size: 40px;
+}
+.amount-text{
+    margin-top: 10px;
+}
+.total-text{
+    margin-top: 10px;
+}
+.reset-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-button{
+    background-color:hsl(172, 44%, 49%);
+    width: 400px;
+    margin-top: 30px;
+    
+    
+}
