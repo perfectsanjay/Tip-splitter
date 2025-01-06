@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(185, 41%, 84%) ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 30px;
+}
+
+.title{
+    color: hsl(183, 100%, 15%);
+    font-family:'Space Mono',serif;
+    font-weight: 800;
+    padding: 5px;
+    
+}
+.tip-container{
+    background-color: white;
+    width: 1100px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 60px;
+    padding: 10px;
+}
+.input-container{
+    margin: 50px;
+    position: relative;
+}
+.bill-text{
+    color:hsl(186, 14%, 43%) ;
+}
+.input-bill{
+    width: 400px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:hsl(189, 41%, 97%);
+    padding: 10px;
+    font-size: large;
+
+}
+.dollar-img{
+ position: absolute;
+ left: 10px;
+ top: 40px;
+}
+.zero{
+    position: absolute;
+    top:35px;
+    left: 360px;
+    color: hsl(184, 14%, 56%);
+    font-size: 30px;
+}
+
+.split-per{
+    margin-top: 40px;
+    color: hsl(186, 14%, 43%);
+}
+.percentage-select{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+    gap: 10px;
+    width: 100px;
+
+
+}
+button{
+    padding: 10px;
+    width: 120px;
+    background-color:hsl(183, 100%, 15%);
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.custom-input{
+    width: 120px;
+    padding: 10px;
+    font-size: 20px;
+   
+
+}
+
+.no-people-text{
+    margin-top: 30px;
+    color:hsl(186, 14%, 43%) ;
+}
+
+.no-people{
+    width: 400px;
+    height: 50px;
+    border-style: none;
+    background-color:hsl(189, 41%, 97%);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    margin-top: 10px;
+}
+.person-logo{
+    position: absolute;
+    left: 10px;
+    top: 320px;
+    font-size: 30px;
+}
+.input-zero{
+    position: absolute;
+    left: 360px;
+    top: 310px;
+    color: hsl(184, 14%, 56%);
+    font-size: 30px;
+
+}
+
+/* style second container */
