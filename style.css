@@ -50,14 +50,17 @@ body{
     border-radius: 5px;
     border-style: none;
     background-color:hsl(189, 41%, 97%);
-    padding: 10px;
+    padding-right: 30px;
     font-size: large;
+    text-align: right;
 
 }
 .dollar-img{
  position: absolute;
  left: 10px;
  top: 40px;
+ color: hsl(184, 14%, 56%);
+ font-size: large;
 }
 .zero{
     position: absolute;
@@ -110,9 +113,10 @@ button{
     border-style: none;
     background-color:hsl(189, 41%, 97%);
     border-radius: 5px;
-    padding: 10px;
+    padding-right: 30px;
     font-size: large;
     margin-top: 10px;
+    text-align: right;
 }
 .person-logo{
     position: absolute;
@@ -187,4 +191,23 @@ button{
     margin-top: 30px;
     
     
+}
+
+/* style for javascript */
+
+.input-error{
+    border: 1px solid red;
+    outline: none;
+}
+.error-message{
+    color: red;
+    font-size: large;
+    margin-top: 5px;
+    display: none;
+}
+.message{
+    color: red;
+    font-size: large;
+    margin-top: 5px;
+    display: none;
 }
