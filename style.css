@@ -121,13 +121,13 @@ button{
 .person-logo{
     position: absolute;
     left: 10px;
-    top: 320px;
+    top: 330px;
     font-size: 30px;
 }
 .input-zero{
     position: absolute;
     left: 360px;
-    top: 310px;
+    top: 320px;
     color: hsl(184, 14%, 56%);
     font-size: 30px;
 
@@ -171,6 +171,10 @@ button{
     color: hsl(186, 14%, 43%) ;
 }
 .digit{
+    color:hsl(172, 67%, 45%);
+    font-size: 40px;
+}
+.total-digit{
     color:hsl(172, 67%, 45%);
     font-size: 40px;
 }
