@@ -215,3 +215,102 @@ button{
     margin-top: 5px;
     display: none;
 }
+
+
+@media  screen and  (max-width: 768px) {
+    .tip-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 100%;
+    }
+
+  
+}
+@media screen and (max-width: 425px) {
+    .tip-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 1000px;
+    }
+    .bill-text{
+        position: absolute;
+        /* left: 20px; */
+        top: -30px
+    }
+    .input-bill{
+        position: absolute;
+        /* left: 60px; */
+        width: 280px;
+    }
+    .dollar-img{
+        position: absolute;
+        top: 15px;
+        /* left: 80px; */
+    }
+    .zero{
+        position: absolute;
+        top: 15px;
+        left: 240px;
+    }
+   .split-per{
+    margin-top: 100px;
+    /* margin-left: 60px; */
+
+   }
+   .button{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+
+   }
+  
+   .custom-input{
+    width: 80px;
+    font-size: 14px;
+   }
+
+   /* .no-people-text{
+    margin-left: 60px;
+   } */
+   .no-people{
+    width: 280px;
+   }
+   .person-logo{
+    position: absolute;
+    top: 300px;
+   }
+   .input-zero{
+    position: absolute;
+    left: 250px;
+    top: 290px;
+   }
+   .tip-container-cal{
+    width: 300px;
+    margin-top: 10px;
+    height: 400px;
+   }
+   .amount-con{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .reset-con{
+    height: 20px;
+   }
+   .reset-button{
+    height: 40px;
+    margin-top: 2px;
+   }
+   /* .reset-button{
+    margin-top: 10px;
+   } */
+
+}
